@@ -41,6 +41,11 @@ def send_email(subject,content,receiver):
 
 
 if __name_=='__main__':
+	string='send email to my address'
+	subject='hello'
+	receiver=['1475126006@qq.com']
+	send_email(subject,string,receiver)
+	
 	print(1234556)
 
 
