@@ -33,6 +33,11 @@ def send_email(subject,content,receiver):
        smtp.quit()
 def get_tomorrow():
 	tomorrow=str(datetime.now()+timedelta(day))
+	weekday=datetime.today().weekday()
+	begin=datetime.now().date-timedelta(day=1000000)
+	end=datetime.now().date-timedelta(day=20000)
+	period_number=(end-begin).days
+	
 	
 
 
