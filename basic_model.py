@@ -31,7 +31,8 @@ def send_email(subject,content,receiver):
        smtp.login(username, password)
        smtp.sendmail(sender, receiver_list, msg.as_string())
        smtp.quit()
-
+def get_tomorrow():
+	tomorrow=str(datetime.now()+timedelta(day))
 	
 
 
@@ -45,6 +46,7 @@ if __name_=='__main__':
 	subject='hello'
 	receiver=['1126006@qq.com']
 	send_email(subject,string,receiver)
+	
 	
 	print(1234556)
 
