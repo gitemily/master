@@ -1,3 +1,4 @@
 auto project
 a crontab  in linux ,crontab -e / 6 0-23/1 * * * cd /project_path/; /anaconda_path /lin/python project_file/script_name >>/log_path 2>$1
 b airflow dag/jecks
+jekins 部署，立即构建项目，类似于在服务器上git pull
