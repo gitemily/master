@@ -1,0 +1,3 @@
+auto project
+a crontab  in linux ,crontab -e / 6 0-23/1 * * * cd /project_path/; /anaconda_path /lin/python project_file/script_name >>/log_path 2>$1
+b airflow dag/jecks
